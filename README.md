@@ -56,6 +56,7 @@ Each point below addresses how the removal of this data impacts various reportin
 
 
 * *Scores by School Type*
+
   Thomas High School is classified as a Charter school so this is the only row that has the potential to change. Again, this analysis was completed using
   the total student count, consequently, there is no difference among the results of each analysis.
   
