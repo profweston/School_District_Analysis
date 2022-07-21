@@ -41,9 +41,21 @@ Each point below addresses how the removal of this data impacts various reportin
 * *Scores by School Spending*
 
   Thomas High School falls in the $631-$645 spending range (per student) so this is the only row that has the potential to change.  As represented in the   tables below, the data has actually not changed with the new analysis. This data is calculated by taking the budget and dividing by the number of
-  students in the school. The analysis only changed the original scores for 9th grade to NaN, however, the students were not removed from the data set so   the total students stayed the same. The only calculation that took into consideration the adjusted student total excluding 9th grades were the 
-  percentages in per school summary.
+  students in the school. The data modification only changed the original scores for 9th grade to NaN, however, the students were not removed from the 
+  data set so the total students stayed the same. The only calculation that took into consideration the adjusted student total excluding 9th grades were 
+  the percentages in per school summary for Thomas High School.
 
 
 * *Scores by School Type*
+  Thomas High School is classified as a Charter school so this is the only row that has the potential to change. Again, this analysis was completed using
+  the total student count, consequently, there is no difference among the results of each analysis.
+  
+## Summary
+
+In summary, there was little change in the school district analysis after the reading and math scores for the nigth grade at Thomas High School were reaplaced with NaNs. The following observations can be made:
+
+1. The overall passing percentage for Thomas High School decreased 0.3%.
+2. The overall passing percentage for district also decreased by 0.3%
+3. The average math score for the district decrease 0.1 points. 
+4. 
 
