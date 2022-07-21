@@ -35,6 +35,9 @@ Each point below addresses how the removal of this data impacts various reportin
 * *School Summary*
 
   When aggregating the data by school, only the data for Thomas High School is impacted by removing the data. At first glance, it appears that the         overall passing rate for Thomas High School decreases significantly. However, the analysis of the data at this point has had the data points replaced     with NaN but the students are still in the data set. The students were counted by school name so when calculating the percentage of the overall           passing, the 9th grade students are still included in the total students at Thomas High School.  Thus, this result is unreliable.
+  
+  ![Per School Summary](/Resources/Per_School_Summary.png)
+  
 
   The code was refactored to replace each percentage on the Thomas High School summary with percentages using only data points from tenth, eleventh, and   twelfth grade students. After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school     summary to compare to other schools, it should be noted that all other schools were analyzed using grade levels 9 – 12 whereas Thomas High School         accounted for only 10 –   12 grades.
 
