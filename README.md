@@ -19,9 +19,12 @@ Each point below addresses how the removal of this data impacts various reportin
   The overall passing percentage is defined as the percentage of students who earn a passing score in both math and reading. The performance levels shown   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a       whole. This decrease in overall passing percentage is minimal.
   
   Initial Analysis: 
+  
   ![District Summary](/Resources/District_Summary.png)
   
   Modified Analysis:
+  
+  ![District Summary Modified](/Resources/District_Summary_Modified.png)
   
   
   
