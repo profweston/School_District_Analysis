@@ -9,7 +9,8 @@ After examination of original data files, a suspicion of academic dishonesty of 
 
 The first analysis included all the math and reading scores provided in the data set. The second analysis included the data that remained after ninth grade math and reading scores for Thomas High School were removed. The code used to remove reading scores is pictured below. The same process was used to removed math scores.
 
-<replacement code>
+![Replacement_Code](https://user-images.githubusercontent.com/108107856/180306288-81244bf5-a4e4-458c-b0e2-b1bd8a5c5fdc.png)
+
 
 Each point below addresses how the removal of this data impacts various reporting of the results.
 
