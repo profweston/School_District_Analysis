@@ -9,14 +9,20 @@ After examination of original data files, a suspicion of academic dishonesty of 
 
 The first analysis included all the math and reading scores provided in the data set. The second analysis included the data that remained after ninth grade math and reading scores for Thomas High School were removed. The code used to remove reading scores is pictured below. The same process was used to removed math scores.
 
-![Replacement_Code](https://user-images.githubusercontent.com/108107856/180306288-81244bf5-a4e4-458c-b0e2-b1bd8a5c5fdc.png)
+![Loc Code](/Resources/Loc_Code.png)
 
 
 Each point below addresses how the removal of this data impacts various reporting of the results.
 
 * *District Summary* 
 
-  The overall passing percentage is defined as the percentage of students who earn a passing score in both math and reading. The performance levels shown   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a       whole.This percentage decrease in overall passing is not enough to be of interest.
+  The overall passing percentage is defined as the percentage of students who earn a passing score in both math and reading. The performance levels shown   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a       whole. This decrease in overall passing percentage is minimal.
+  
+  Initial Analysis: 
+  ![District Summary](/Resources/District_Summary.png)
+  
+  Modified Analysis:
+  
   
   
   
