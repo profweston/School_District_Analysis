@@ -7,7 +7,7 @@ After examination of original data files, a suspicion of academic dishonesty of 
 
 ## Results
 
-The first analysis included all the math and reading scores provided in the data set. The second analysis included the data that remained after ninth grade math and reading scores for Thomas High School were removed. The code used to remove reading scores is pictured below. The same process was used to removed math scores.
+The first analysis included all the math and reading scores provided in the data set. The second analysis included the data that remained after ninth grade math and reading scores for Thomas High School were removed. The code used to remove reading scores is pictured below. The code was then refactored  to remove math scores.
 
 ![Loc Code](/Resources/Loc_Code.png)
 
@@ -26,20 +26,28 @@ Each point below addresses how the removal of this data impacts various reportin
   
   ![District Summary Modified](/Resources/District_Summary_Modified.png)
   
-  
-  
-  
-  
-  
+      
 
 * *School Summary*
 
-  When aggregating the data by school, only the data for Thomas High School is impacted by removing the data. At first glance, it appears that the         overall passing rate for Thomas High School decreases significantly. However, the analysis of the data at this point has had the data points replaced     with NaN but the students are still in the data set. The students were counted by school name so when calculating the percentage of the overall           passing, the 9th grade students are still included in the total students at Thomas High School.  Thus, this result is unreliable.
+  When aggregating the data by school, only the results for Thomas High School is impacted by removing the data. At first glance, it appears that the         overall passing rate for Thomas High School decreases significantly. However, the analysis of the data at this point has had the data points replaced     with NaN but the students are still in the data set. The students were counted by school name so when calculating the percentage of the overall           passing, the 9th grade students are still included in the total students at Thomas High School.  Thus, this result is unreliable.
+  
+  Initial Analysis:
   
   ![Per School Summary](/Resources/Per_School_Summary.png)
   
 
-  The code was refactored to replace each percentage on the Thomas High School summary with percentages using only data points from tenth, eleventh, and   twelfth grade students. After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school     summary to compare to other schools, it should be noted that all other schools were analyzed using grade levels 9 – 12 whereas Thomas High School         accounted for only 10 –   12 grades.
+  Modified Analysis:
+  
+  <insert pic>
+  
+  The code was refactored to replace each percentage on the Thomas High School summary with percentages using only data points from tenth, eleventh, and   twelfth grade students. 
+  
+  
+ <insert code pic>
+  
+    
+   After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school summary to compare to        other schools, it should be noted that all other schools were analyzed using grade levels 9-12 whereas Thomas High School accounted for only 10-12        grades.
 
 * *Thomas High School Performance*
 
