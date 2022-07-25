@@ -26,7 +26,6 @@ Each point below addresses how the removal of this data impacts various reportin
   
   ![District Summary Modified](/Resources/District_Summary_Modified.png)
   
-      
 
 * *School Summary*
 
@@ -53,11 +52,16 @@ Each point below addresses how the removal of this data impacts various reportin
    
 * *Thomas High School Performance*
 
+   When initially examining the overall passing percentage of schools ranked in the top five and bottom five schools, Thomas High School was ranked number
+   two. Similar to the impact observed in the School Summary results, the decrease in performance is so slight it doesn’t displace Thomas High School from
+   the second rank. Again, however, it should be noted that the comparison of students from Thomas High School is no longer consistent with the other 
+   schools  due to the change in grade populations. 
+
    Initial Analysis Top Five Schools:
    
    ![Top Five](/Resources/Top_Five.png)
    
-    Initial Analysis Bottom Five Schools:
+   Initial Analysis Bottom Five Schools:
    
    ![Bottom Five](/Resources/Bottom_Five.png)
    
@@ -65,14 +69,15 @@ Each point below addresses how the removal of this data impacts various reportin
    
    ![Top Five](/Resources/Top_Five_Modified.png)
    
-   Modified Analysis Bottom Five Schools:
+    Modified Analysis Bottom Five Schools:
    
    ![Bottom Five](/Resources/Bottom_Five_Modified.png)
 
 * *Grade Level Scores*
 
    Removing the 9th grade math and reading scores at Thomas High School only impacts the grade level scores for that grade at that school. All scores at
-   other locations remain the same as well as the remaining grade levels at Thomas High School.
+   other locations remain the same as well as the remaining grade levels at Thomas High School.This allows for more similar comparisons among the schools 
+   by examining students at grade level. 
    
    Initial Analysis Reading:
    
@@ -92,7 +97,8 @@ Each point below addresses how the removal of this data impacts various reportin
    
 * *Scores by School Spending*
 
-  Thomas High School falls in the $631-$645 spending range (per student) so this is the only row that has the potential to change. As represented in the   tables below, the data has actually not changed with the new analysis. This data is calculated by taking the budget and dividing by the number of
+  Thomas High School falls in the $631-$645 spending range (per student) so this is the only row that has the potential to change. As represented in the
+  tables below, the data has actually not changed with the new analysis. This data is calculated by taking the budget and dividing by the number of
   students in the school. The data modification only changed the original scores for 9th grade to NaN, however, the students were not removed from the 
   data set so the total students stayed the same. The only calculation that took into consideration the adjusted student total excluding 9th grades were 
   the percentages in per school summary for Thomas High School.
@@ -107,6 +113,8 @@ Each point below addresses how the removal of this data impacts various reportin
   
   
 * *Scores by School Size*
+
+   Thomas falls into the medium 
 
   ![Size](/Resources/Size_Initial.png)
   
@@ -133,6 +141,6 @@ In summary, there was little change in the school district analysis after the re
 
 1. The overall passing percentage for Thomas High School decreased 0.3%.
 2. The overall passing percentage for district also decreased by 0.3%
-3. The average math score for the district decrease 0.1 points. 
-4. 
+3. The average math score for the district decreased 0.1 points. 
+4. There were no changes to the data regarding school type, school size, and school spending.
 
