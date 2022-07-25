@@ -16,7 +16,9 @@ Each point below addresses how the removal of this data impacts various reportin
 
 * *District Summary* 
 
-  The overall passing percentage is defined as the percentage of students who earn a passing score in both math and reading. The performance levels shown   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a       whole. This decrease in overall passing percentage is minimal.
+   The overall passing percentage is defined as the percentage of students who earn a passing score in both math and reading. The performance levels shown
+   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a   
+   whole. This decrease in overall passing percentage is minimal.
   
   Initial Analysis: 
   
@@ -46,7 +48,9 @@ Each point below addresses how the removal of this data impacts various reportin
    ![Adjusted Total](/Resources/Adjusted_Total.png)
   
     
-   After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school summary to compare to        other schools, it should be noted that all other schools were analyzed using grade levels 9-12 whereas Thomas High School accounted for only 10-12        grades.
+   After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school summary to compare to  
+   other schools, it should be noted that all other schools were analyzed using grade levels 9-12 whereas Thomas High School accounted for only 10-12
+   grades.
 
    ![Per School Summary](/Resources/School_Summary_Modified2.png)
    
@@ -114,7 +118,9 @@ Each point below addresses how the removal of this data impacts various reportin
   
 * *Scores by School Size*
 
-   Thomas falls into the medium 
+   Thomas falls into the medium school size so this is thr only row that has the potential to change. In both the original and modified, this calculation
+   was based on the total amount of students, including the ninth grader student at Thomas High School. Similar to the oobservations made in the district
+   summary, the impact is minimal. In fact, when rounded to the nearest percent, no change can be observed. 
 
   ![Size](/Resources/Size_Initial.png)
   
@@ -125,7 +131,7 @@ Each point below addresses how the removal of this data impacts various reportin
 * *Scores by School Type*
 
   Thomas High School is classified as a Charter school so this is the only row that has the potential to change. Again, this analysis was completed using
-  the total student count, consequently, there is no difference among the results of each analysis.
+  the total student count, consequently, there is no difference among the results of each analysis when rounded to the nearest percent.
   
     Initial Analysis: 
   
