@@ -17,7 +17,7 @@ Each point below addresses how the removal of this data impacts various reportin
 * *District Summary* 
 
    The overall passing percentage is defined as the percentage of students who earn a passing score in both math and reading. The performance levels shown
-   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a   
+   in each figure below indicate that the removal of the ninth-grade data for Thomas High School bears little impact when examining the district as a 
    whole. This decrease in overall passing percentage is minimal.
   
   Initial Analysis: 
@@ -33,8 +33,8 @@ Each point below addresses how the removal of this data impacts various reportin
 
   When aggregating the data by school, only the results for Thomas High School is impacted by removing the data. At first glance, it appears that the
   overall passing rate for Thomas High School decreases significantly. However, the analysis of the data at this point has had the data points replaced 
-  with NaN but the students are still in the data set. The students were counted by school name so when calculating the percentage of the overall   
-  passing, the 9th grade students are still included in the total students at Thomas High School.  Thus, this result is unreliable.
+  with NaN but the students are still in the data set. The students were counted by school name so when calculating the percentage of the overall passing,
+  the 9th grade students are still included in the total students at Thomas High School.  Thus, this result is unreliable.
   
   Initial Analysis:
   
@@ -52,7 +52,7 @@ Each point below addresses how the removal of this data impacts various reportin
    ![Adjusted Total](/Resources/Adjusted_Total.png)
   
     
-   After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school summary to compare to  
+   After this analysis, it appears that the overall passing rate does not change significantly. However, when using this school summary to compare to 
    other schools, it should be noted that all other schools were analyzed using grade levels 9-12 whereas Thomas High School accounted for only 10-12
    grades.
 
@@ -60,7 +60,7 @@ Each point below addresses how the removal of this data impacts various reportin
    
 * *Thomas High School Performance*
 
-   When initially examining the overall passing percentage of schools ranked in the top five and bottom five schools, Thomas High School was ranked number
+   When initially examining the overall passing percentage of schools ranked in the top five and bottom five, Thomas High School was ranked number
    two. Similar to the impact observed in the School Summary results, the decrease in performance is so slight it doesn’t displace Thomas High School from
    the second rank. Again, however, it should be noted that the comparison of students from Thomas High School is no longer consistent with the other 
    schools  due to the change in grade populations. 
@@ -122,8 +122,8 @@ Each point below addresses how the removal of this data impacts various reportin
   
 * *Scores by School Size*
 
-   Thomas falls into the medium school size so this is thr only row that has the potential to change. In both the original and modified, this calculation
-   was based on the total amount of students, including the ninth grader student at Thomas High School. Similar to the oobservations made in the district
+   Thomas falls into the medium school size so this is the only row that has the potential to change. In both the original and modified, this calculation
+   was based on the total amount of students, including the ninth grader student at Thomas High School. Similar to the observations made in the district
    summary, the impact is minimal. In fact, when rounded to the nearest percent, no change can be observed. 
 
   ![Size](/Resources/Size_Initial.png)
@@ -147,7 +147,7 @@ Each point below addresses how the removal of this data impacts various reportin
   
 ## Summary
 
-In summary, there was little change in the school district analysis after the reading and math scores for the nigth grade at Thomas High School were reaplaced with NaNs. The following observations can be made:
+In summary, there was little change in the school district analysis after the reading and math scores for the ninth grade at Thomas High School were replaced with NaNs. The following observations can be made:
 
 1. The overall passing percentage for Thomas High School decreased 0.3%.
 2. The overall passing percentage for district also decreased by 0.3%
